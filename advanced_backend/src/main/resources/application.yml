@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: advanced
+  datasource:
+    url: jdbc:postgresql://localhost:5432/advanced_db
+    password: spring
+    username: spring
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+  sql:
+    init:
+      mode: never
