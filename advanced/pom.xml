@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.correa</groupId>
-    <artifactId>advanced</artifactId>
+    <artifactId>advanced_backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>advanced</name>
     <description>advanced</description>
